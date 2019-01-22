@@ -11,6 +11,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableEurekaClient   //eureka客户端
 @EnableFeignClients    //添加feign的支持
 public class web_consumer_8083 {
+	/////
     public static void main(String[] args) {
         SpringApplication.run(web_consumer_8083.class);
     }
